@@ -1,0 +1,36 @@
+
+  {
+
+    "matrix":
+[{
+  "name":"state1",
+  "transitions": {
+    "event1": "state1",
+    "event2": "state1",
+    "event3": "state1"
+  }
+},
+
+{
+  "name":"state2",
+  "transitions": {
+    "event1": "state2",
+    "event2": "state1",
+    "event3": "state2"
+  }
+},
+
+{
+  "name":"state3",
+  "transitions": {
+    "event1": "state3",
+    "event2": "state3",
+    "event3": "state1"
+  }
+}] ,
+
+"order":
+["event2", "event1", "event3"]
+
+}
+
